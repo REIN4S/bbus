@@ -33,7 +33,7 @@ window.onload = function() {
     bBus.release(e);
 }
 ...
-var hID = bBus.subscribe("192.168.100.1", "onMounted", 
+var hID = bBus.subscribe("192.168.100.1", "onLoad", 
     function() {
         alert("Pong!");
     }, this);
